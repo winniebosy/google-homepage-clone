@@ -5,17 +5,22 @@ body{
 .main-navigation{
     display:flex;
     justify-content: flex-end;
+    text-align:center;
+    
 
 }
 li{
     list-style-type: none;
-    margin:0.3rem; 
+    margin:1rem; 
     color:#2c2c2d;
+    border: 2px solid green;
+    padding: 0.1rem;
 }
 a:link{
     text-decoration:none;
     color:#2c2c2d;
     font-size: 0.9em;
+    
     
 }
 a:visited{
@@ -27,11 +32,28 @@ a:hover{
    color:#404043;  
 }
 a:active{
-
+   text-decoration: none;
+    color:#404043; 
 }
-.applications-container{
-
+a.applications-container{
+   margin-left:auto;
 }
-user-profile-container{
+a.applications-container:hover{
+    text-decoration:none;
+    background-color: aqua;
+   
     
+    
+
+
+}
+a.user-profile-container{
+   
+}
+a.user-profile-container:hover{
+    text-decoration:none;
+    
+
+
+
 }
