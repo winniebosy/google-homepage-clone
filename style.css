@@ -10,12 +10,13 @@ body{
 li{
     list-style-type: none;
     margin:0.3rem; 
-    color:#2c2c2d;s
+    color:#2c2c2d;
 }
 a:link{
     text-decoration:none;
     color:#2c2c2d;
-    ;
+    font-size: 0.9em;
+    
 }
 a:visited{
     color:#2c2c2d;
@@ -27,4 +28,10 @@ a:hover{
 }
 a:active{
 
+}
+.applications-container{
+
+}
+user-profile-container{
+    
 }
