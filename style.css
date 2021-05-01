@@ -1,5 +1,5 @@
 body{
-    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-family:arial,sans-serif;
 }
 
 .main-navigation{
@@ -14,12 +14,14 @@ li{
     margin:1rem; 
     color:#2c2c2d;
     border: 2px solid green;
-    padding: 0.1rem;
+   
+    
 }
 a:link{
     text-decoration:none;
     color:#2c2c2d;
     font-size: 0.9em;
+    border: 2px solid blue;
     
     
 }
@@ -37,16 +39,15 @@ a:active{
 }
 a.applications-container{
    margin-left:auto;
+  
 }
 a.applications-container:hover{
     text-decoration:none;
     background-color: aqua;
-   
-    
-    
-
-
 }
+
+
+
 a.user-profile-container{
    
 }
