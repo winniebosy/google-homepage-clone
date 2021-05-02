@@ -1,7 +1,7 @@
 body{
     font-family:arial,sans-serif;
 }
-.main-navigation{
+.headbar{
     display:flex;
     justify-content:flex-end;
     font-size:0.85em;
