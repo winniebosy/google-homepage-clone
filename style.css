@@ -94,8 +94,8 @@ border:2px solid red;
 /* end of google logo section styling */
 
 #form{
-    width: 50%;
-    border:2px solid red;
+    width: 60%;
+    box-shadow:3px 3px 3px 2px #888888;
     border-radius: 5em;
     display:flex;
     margin-top: 2em;
@@ -105,4 +105,28 @@ border:2px solid red;
     padding: 0.1em;
     
 
+}
+
+
+
+.search-icon{
+    margin: 0.5em 0.5em 0.1em 0.8em;
+    width: 23px;
+    height:23px;
+
+}
+#query{
+    border: none;
+    margin-left: 0.5em;
+    width: 80%;
+    font-weight: bolder;
+}
+
+.microphone-icon-btn{
+    border:none;
+    background-color: white;
+    margin-top:0.8em;  
+}
+.microphone-icon{
+    margin: auto;
 }
