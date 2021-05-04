@@ -1,5 +1,6 @@
 body{
     font-family:arial,sans-serif;
+    color: #0000;
 }
 .header-bar{
     display:flex;
@@ -17,18 +18,17 @@ li{
 .google-apps-icon{ 
     border-radius: 50%;
     width: 28.5px;
-    height: 28px;
+    height: 28.5px;
     margin-top: -0.5em;   
     
 }
 
 
 .user-profile{
-    border:2px solid red;
     border-radius: 50%;
     width: 28px;
     height: 28px;
-    margin-top: -0.9em;
+    margin-top: -0.5em;
     
     
 }
