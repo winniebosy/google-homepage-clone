@@ -95,7 +95,7 @@ border:2px solid red;
 
 #form{
     width: 60%;
-    box-shadow:3px 3px 3px 2px #888888;
+    box-shadow:2px 2px 2px 2px #888888;
     border-radius: 5em;
     display:flex;
     margin-top: 2em;
@@ -129,4 +129,64 @@ border:2px solid red;
 }
 .microphone-icon{
     margin: auto;
+}
+.container-add-button{
+    margin-top: 2em;
+    display:flex;
+    justify-content:center;
+    padding:0.5em;
+   
+}
+.add-btn{
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    border:none;
+
+}
+.add-btn:hover{
+    
+    width:50px;
+    height:50px;
+    box-shadow:2px 2px 2px 2px #888888;
+
+}
+footer{
+    margin-top: 1em;
+   display:flex;
+   justify-content:flex-end;
+   margin-right:2em;
+}
+.edit-btn{
+    width:15%;
+    border-radius:5em;
+    box-shadow:3px 3px 3px 2px #888888;
+    padding: 0.1em 1em;
+    border:none;
+    background-color:#ffffff;
+}
+.edit-icon{
+    margin-left:0.1em;
+    
+}
+a.edit-text:link{
+    text-decoration:none;
+    color:blue;
+    
+}
+a.edit-text:visited{
+    text-decoration:none;
+    color:blue;
+    
+}
+a.edit-text:hover{
+    
+    text-decoration:none;
+    color:blue;
+    
+}
+a.edit-text:active{
+    text-decoration:none;
+    color:blue;
+    
 }
