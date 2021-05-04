@@ -1,19 +1,61 @@
+/* default styling for the body section */
 body{
     font-family:arial,sans-serif;
-    color: #0000;
+    color: #00000;
 }
+/* styling for the head-bar section */
 .header-bar{
     display:flex;
     justify-content:flex-end;
     
    
 }
+/* list section */
 li{
     list-style-type:none;
     margin:0.6em;
     font-size:0.8em ;
     
 }
+
+
+a.text-link:link{
+  text-decoration: none
+    
+}
+
+a.text-link:visited{
+   color: #000000;
+}
+
+a.text-link:hover{
+text-decoration:underline;
+}
+a.text-link:active{
+  color: #000000
+}
+
+a.image-link:link{
+  text-decoration: none
+   
+   
+}
+
+a.image-link:visited{
+ color: #000000;
+}
+
+a.image-link:hover{
+text-decoration:underline;
+}
+a.image-link:active{
+  color: #00000;
+}
+
+
+
+
+/* .goog;e-apps-icon section */
 
 .google-apps-icon{ 
     border-radius: 50%;
@@ -23,12 +65,10 @@ li{
     
 }
 
-
 .user-profile{
     border-radius: 50%;
     width: 28px;
     height: 28px;
     margin-top: -0.5em;
-    
-    
+        
 }
