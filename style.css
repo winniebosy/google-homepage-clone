@@ -155,38 +155,51 @@ footer{
     margin-top: 1em;
    display:flex;
    justify-content:flex-end;
-   margin-right:2em;
+   margin-right:2em; 
+   padding:1em;
 }
 .edit-btn{
     width:15%;
     border-radius:5em;
     box-shadow:3px 3px 3px 2px #888888;
-    padding: 0.1em 1em;
+    padding: 0.5em 0.4em 0.6em 0;
     border:none;
     background-color:#ffffff;
+    
 }
 .edit-icon{
-    margin-left:0.1em;
+    margin-left:0.3em;
+    margin-bottom:-0.4em;
+    padding: 0 0.6em 0 0;
+   
+     
     
 }
 a.edit-text:link{
     text-decoration:none;
     color:blue;
+    font-size: 0.9em;
+    font-weight: bolder;
+    padding: -10px;
+    
     
 }
 a.edit-text:visited{
     text-decoration:none;
     color:blue;
+    font-weight: bolder;
     
 }
 a.edit-text:hover{
     
     text-decoration:none;
     color:blue;
+    font-weight: bolder;
     
 }
 a.edit-text:active{
     text-decoration:none;
     color:blue;
+    font-weight: bolder;
     
 }
