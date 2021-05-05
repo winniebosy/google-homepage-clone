@@ -56,10 +56,8 @@ a.image-link:active{
 }
 /* links styling for the .imaget-link class section */
 
-/* .goog;e-apps-icon section */
+/* .google-apps-icon section */
 
-
-}
 .icon-square{
 border:2px solid red; 
 }
@@ -70,7 +68,7 @@ border:2px solid red;
     margin-top: -0.5em; 
         
 }
-
+/* google-apps icon section ends here */
 
 .user-profile-avatar{
     border-radius: 50%;
@@ -93,6 +91,7 @@ border:2px solid red;
 }
 /* end of google logo section styling */
 
+/* search button section */
 #form{
     width: 60%;
     box-shadow:2px 2px 2px 2px #888888;
@@ -106,15 +105,14 @@ border:2px solid red;
     
 
 }
-
-
-
+/* search icon styling */
 .search-icon{
     margin: 0.5em 0.5em 0.1em 0.8em;
     width: 23px;
     height:23px;
 
 }
+/* search bar styling */
 #query{
     border: none;
     margin-left: 0.5em;
@@ -122,6 +120,7 @@ border:2px solid red;
     font-weight: bolder;
 }
 
+/* microphone icon styling */
 .microphone-icon-btn{
     border:none;
     background-color: white;
@@ -130,6 +129,10 @@ border:2px solid red;
 .microphone-icon{
     margin: auto;
 }
+
+/* search button section ends here */
+
+/* add button icon styling */
 .container-add-button{
     margin-top: 2em;
     display:flex;
@@ -137,6 +140,8 @@ border:2px solid red;
     padding:0.5em;
    
 }
+
+
 .add-btn{
     border-radius:50%;
     height:50px;
@@ -151,12 +156,17 @@ border:2px solid red;
     box-shadow:2px 2px 2px 2px #888888;
 
 }
+/* add-button icon and styling ends here */
+
+/* footer section */
 footer{
     margin-top: 1em;
    display:flex;
    justify-content:flex-end;
    margin-right:2em; 
    padding:1em;
+    position: sticky;
+    bottom:0;
 }
 .edit-btn{
     width:15%;
@@ -203,3 +213,4 @@ a.edit-text:active{
     font-weight: bolder;
     
 }
+/* footer section ends here */
